@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(gtaback.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+.content{
+    top:50%;
+    position:absolute;
+    transform: translateY(-50%);
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+.content h1 span{
+    color: red;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 5px ;
+    color: #fff;
+    cursor: pointer;
+}
+.launching-time{
+    display: flex;
+    padding-bottom: 30px;
+}
+.launching-time div{
+    flex-basis: 300px;
+    font-weight: 600;
+
+}
+.launching-time p{
+    font-size: 60px;
+}
+.video{
+    top:50%;
+    position: absolute;
+    transform: translateX(130%)translateY(-50%);
+    box-shadow: 10px 5px 5px black;
+}
+.text p{
+    padding-bottom: 20px;
+}
+.owner{
+    transform: translateX(35%)translateY(630%);
+    width: 100%;
+    text-align: center;
+    padding:  5px 0;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
